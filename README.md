@@ -112,7 +112,7 @@ sales_by_month = data.groupby('Order Month')['Sales'].sum().reset_index()
 ```python
 sales_by_category = data.groupby('Category')['Sales'].sum().reset_index()
 ```
-
+[![Sales Plot](https://github.com/Dhruvbansal106/E_Commerce_Data_Analysis_Project/blob/main/Graph_2.png)
 **Insights:**
 - **Top Category:** Technology has the highest sales.
 - **Lowest Category:** Office Supplies has lower sales compared to other categories.
